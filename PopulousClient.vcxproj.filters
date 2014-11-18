@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\CharDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\JpCntx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\LangBulgarianModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\LangCyrillicModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\LangGreekModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\LangHebrewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\LangHungarianModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\LangThaiModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\irc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\model\ircbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\model\ircbuffermodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\model\ircchannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\irccommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\irccommandparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\irccompleter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\irccore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\irclagtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircmessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircmessage_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircmessagebuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircmessagedecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircmessagedecoder_uchardet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\model\ircmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircnetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\ircpalette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\core\ircprotocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\irctextformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="irctextformatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\irctoken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\model\ircuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\model\ircusermodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\util\ircutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="notificationbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsBig5Prober.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsCharSetProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEUCJPProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEUCKRProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEUCTWProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEscCharsetProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEscSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsGB2312Prober.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsHebrewProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsLatin1Prober.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsMBCSGroupProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsMBCSSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsSBCSGroupProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsSBCharSetProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsSJISProber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsUTF8Prober.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsUniversalDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\mozilla\rdf_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\uchardet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\Big5Freq.tab">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\CharDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\EUCKRFreq.tab">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\EUCTWFreq.tab">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\GB2312Freq.tab">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\JISFreq.tab">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\JpCntx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="dialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcCore\irc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcModel\ircbuffer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcModel\ircbuffer_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcModel\ircbuffermodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcModel\ircbuffermodel_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcModel\ircchannel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcModel\ircchannel_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcCore\irccommand.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcUtil\irccommandparser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcUtil\irccommandparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcUtil\irccompleter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcCore\ircconnection.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcCore\ircconnection_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\include\IrcCore\irccore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\include\IrcCore\ircfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\include\IrcCore\ircglobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcUtil\irclagtimer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcUtil\irclagtimer_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcCore\ircmessage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcCore\ircmessage_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcCore\ircmessagebuilder_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcCore\ircmessagedecoder_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\include\IrcModel\ircmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcCore\ircnetwork.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcCore\ircnetwork_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcUtil\ircpalette.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcCore\ircprotocol.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="libcommuni\include\IrcUtil\irctextformat.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="irctextformatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\include\IrcUtil\irctoken_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcModel\ircuser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcModel\ircuser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="libcommuni\include\IrcModel\ircusermodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\include\IrcModel\ircusermodel_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\include\IrcUtil\ircutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="notificationbar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsBig5Prober.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsCharSetProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsCodingStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEUCJPProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEUCKRProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEUCTWProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsEscCharsetProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsGB2312Prober.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsHebrewProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsLatin1Prober.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsMBCSGroupProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsPkgInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsSBCSGroupProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsSBCharSetProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsSJISProber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsUTF8Prober.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nsUniversalDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\nscore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\prmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcommuni\src\3rdparty\uchardet-0.0.1\src\uchardet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\moc_dialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_dialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_notificationbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_notificationbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\qrc_Resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_Resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClInclude Include="ui_dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\1412808682_globe-01-48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\1412808690_user-01-48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\1412808698_arrow-right-01-48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\1412808704_gear-01-48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="icons\checkoff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\checkon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icons\info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="license.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="license2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

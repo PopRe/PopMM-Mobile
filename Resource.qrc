@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/checkoff.png</file>
+        <file>icons/checkon.png</file>
+        <file>icons/1412808682_globe-01-48.png</file>
+        <file>icons/1412808690_user-01-48.png</file>
+        <file>icons/1412808698_arrow-right-01-48.png</file>
+        <file>icons/1412808704_gear-01-48.png</file>
+        <file>icons/info.png</file>
+    </qresource>
+    <qresource prefix="/license">
+        <file>license.txt</file>
+        <file>license2.txt</file>
+    </qresource>
+</RCC>

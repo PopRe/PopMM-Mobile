@@ -195,7 +195,7 @@ QCheckBox::indicator:unchecked {
       <widget class="QGroupBox" name="groupBox">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-         <horstretch>4</horstretch>
+         <horstretch>12</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>

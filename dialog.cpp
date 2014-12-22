@@ -27,6 +27,7 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
 	ui->groupBox->setHidden(true);
+	proxymodel = new CustomSort(this);
 	model = 0;
 	wassetting = false;
 	settings = new QSettings(this);
@@ -170,7 +171,11 @@ void Dialog::onBufferAdded(IrcBuffer* buff)
 	{
 		model = new IrcUserModel(buff);
 		model->setDisplayRole(Irc::UserRole);
-		ui->usersList->setModel(model);
+		model->setSortMethod(Irc::SortByHand);
+		proxymodel->setSourceModel(model);
+		proxymodel->setDynamicSortFilter(true);
+		proxymodel->sort(0);
+		ui->usersList->setModel(proxymodel);
 	}	
 }
 
@@ -203,7 +208,8 @@ QStringList Dialog::usersMatchList(QString user)
 		for (int i = 0; i < model->rowCount(); i++)
 		{
 			QModelIndex ind = model->index(i);
-			QString nick = ind.data(Qt::DisplayRole).toString();
+			IrcUser* u = ind.data().value<IrcUser*>();
+			QString nick = u->name();
 			if (IRCTextFormatter::praseNick(nick) == user)
 			{
 				lst.append(nick);
@@ -612,7 +618,7 @@ void Dialog::on_btn_settings_clicked(bool checked)
 
 void Dialog::on_usersList_activated(const QModelIndex &index)
 {
-	IrcUser* user = model->user(index);
+	IrcUser* user = model->user(proxymodel->mapToSource(index));
 	if (user)
 	{
 		username = IRCTextFormatter::praseNick(user->name());
@@ -740,4 +746,21 @@ void Dialog::on_textBrowser_cursorPositionChanged()
 void Dialog::on_maxLinesSpinBox_valueChanged(int arg1)
 {
     settings->setValue("maxlines", arg1);
+}
+
+/// Custom sorting
+CustomSort::CustomSort(QObject* parent) : QSortFilterProxyModel(parent)
+{
+
+}
+
+bool CustomSort::lessThan(const QModelIndex &left, const QModelIndex &right) const
+{
+	IrcUser* u = left.data().value<IrcUser*>();
+	QString leftString = IRCTextFormatter::praseNick((u->name()));
+
+	u = right.data().value<IrcUser*>();
+	QString rightString = IRCTextFormatter::praseNick((u->name()));
+
+	return QString::localeAwareCompare(leftString, rightString) < 0;
 }

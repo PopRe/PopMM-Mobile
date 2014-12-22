@@ -29,6 +29,7 @@
 #include <QStyledItemDelegate>
 #include <QAbstractTextDocumentLayout>
 #include <QPainter>
+#include <QSortFilterProxyModel>
 #include "notificationbar.h"
 #include "irctextformatter.h"
 
@@ -60,6 +61,17 @@ protected:
 	QSize sizeHint(const QStyleOptionViewItem & option, const QModelIndex & index) const;
 };
 
+class CustomSort : public QSortFilterProxyModel
+{
+	Q_OBJECT
+
+public:
+	explicit CustomSort(QObject* parent = 0);
+    // QSortFilterProxyModel interface
+protected:
+    bool lessThan(const QModelIndex &left, const QModelIndex &right) const;
+};
+
 class Dialog : public QDialog
 {
     Q_OBJECT
@@ -75,6 +87,7 @@ private:
 	IrcBufferModel* buffer;
 	IrcUserModel* model;
 	IrcCommandParser* parser;
+	CustomSort* proxymodel;
 	QVector<IrcNetworkInfo> networks;
 	QString loggeduser;;
 	bool makehash;
